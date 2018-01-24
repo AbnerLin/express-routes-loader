@@ -30,3 +30,16 @@
 
 ```
 
+### Export url path
+```
+const express = require('express');
+const router = express.Router();
+
+router.post('/login', function(req, res) {
+        ...
+});
+
+router.root = '/auth';  // this is url path which must export.
+
+module.exports = router;
+```
