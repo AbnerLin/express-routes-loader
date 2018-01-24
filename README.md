@@ -10,23 +10,23 @@
 ## Usage
     
 ```
-    const app = express();
-    const expressRouteLoader = require('@abnerlin/express-routes-loader')(app);
+const app = express();
+const expressRouteLoader = require('@abnerlin/express-routes-loader')(app);
     
-    ...
+...
 
 ```
 
 ### Load all routes in direcotry
 
 ```
-    expressRouteLoader.dir(path.join(__dirname, 'routes')); // which 'routes' is directory path.
+expressRouteLoader.dir(path.join(__dirname, 'routes')); // which 'routes' is directory path.
 ```
 
 ### Load routes with specify file
 
 ```
-    expressRouteLoader.file(path.join(__dirname, 'routes', 'auth')); // which 'routes/auth' is file path.
+expressRouteLoader.file(path.join(__dirname, 'routes', 'auth')); // which 'routes/auth' is file path.
 
 ```
 
