@@ -1,6 +1,6 @@
 {
   "name": "@abnerlin/express-routes-loader",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Load express route by given .js path, and the route file must export the property \"root\" which is the url path. This tool also provide the feature to load all routes in directory which provided as the first argument.",
   "main": "index.js",
   "scripts": {
